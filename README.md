@@ -21,10 +21,6 @@ ThinkAdmin V4.1 是一个基于 ThinkPHP5.1 开发的后台管理系统。
 
 本地开发命令`php think run`，使用`http://127.0.0.1:8000`访问项目。
 
-PHP 开发技术交流（ QQ 群 513350915）
-
-[![PHP微信开发群 (SDK)](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=ae25cf789dafbef62e50a980ffc31242f150bc61a61164458216dd98c411832a) 
-
 
 权限管理
 --
@@ -43,16 +39,6 @@ public function index(){
 }
 ```
 
-代码仓库
---
- framework 为 MIT 协议开源项目，安装使用或二次开发不受约束，欢迎 fork 项目。
- 
- 部分代码来自互联网，若有异议可以联系作者进行删除。
- 
- * 在线体验地址：https://demo.thinkadmin.top （账号和密码都是 admin ）
- * Gitee仓库地址：https://gitee.com/zoujingli/ThinkAdmin
- * GitHub仓库地址：https://github.com/zoujingli/ThinkAdmin
- 
 框架指令
 --
 * 执行 `build.cmd` 可更新 `Composer` 插件，会删除并替换 `vendor` 目录
@@ -80,56 +66,3 @@ public function index(){
 * 其它自定工具
 >* 执行 `php think xclean:session` 清理无效的会话SESSION文件
 >* 执行 `php think xclean:store` 清理无效的订单信息及定时任务
- 
-特别感谢
---
-|名称|版本|描述|链接|
-|---|---|---|---|
-|Layui|2.4.5|UI组件库|https://github.com/sentsin/layui|
-|Ckeditor|4.10.1|富文件编辑器|https://github.com/ckeditor/ckeditor-dev|
-|PluPloader|3.1.2|文件上传工具1|https://www.plupload.com|
-|WebUploader|0.1.5|文件上传工具2|https://github.com/fex-team/webuploader|
-|Font-Awesome|4.7.0|字体图标库|https://github.com/FortAwesome/Font-Awesome|
-|ThinkPHP|5.1.35|PHP基础框架|https://github.com/top-think/framework|
-|ThinkLibrary|5.1.x-dev|ThinkPHP扩展组件|https://github.com/zoujingli/ThinkLibrary|
-|WeChatDeveloper|1.2.9|微信公众号组件|https://github.com/zoujingli/WeChatDeveloper|
-|WeOpenDeveloper|dev-master|微信开放平台组件|https://github.com/zoujingli/WeOpenDeveloper|
-
-赞助打赏
---
-![赞助](http://static.thinkadmin.top/pay.png)
-
-项目版本
---
-体验账号及密码都是`admin`
-* v1 基于 ThinkPHP5.0 开发
-
-> 在线体验地址：https://v1.thinkadmin.top
-
-> Gitee 代码地址：https://gitee.com/zoujingli/ThinkAdmin/tree/v1
-
-> Github 代码地址：https://github.com/zoujingli/ThinkAdmin/tree/v1
-
-* v2 基于 ThinkPHP5.0 开发
-
-> 在线体验地址：https://v2.thinkadmin.top
-
-> Gitee 代码地址：https://gitee.com/zoujingli/ThinkAdmin/tree/v2
-
-> Github 代码地址：https://github.com/zoujingli/ThinkAdmin/tree/v2
-
-* v3 基于 ThinkPHP5.1 开发
-
-> 在线体验地址：https://v3.thinkadmin.top
-
-> Gitee 代码地址：https://gitee.com/zoujingli/ThinkAdmin/tree/v3
-
-> Github 代码地址：https://github.com/zoujingli/ThinkAdmin/tree/v3
-
-* v4 基于 ThinkPHP5.1 开发
-
-> 在线体验地址：https://v4.thinkadmin.top
-
-> Gitee 代码地址：https://gitee.com/zoujingli/ThinkAdmin/tree/v4
-
-> Github 代码地址：https://github.com/zoujingli/ThinkAdmin/tree/v4
